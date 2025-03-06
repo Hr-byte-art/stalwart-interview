@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="generator.mapper.QuestionBankQuestionMapper">
 
-    <resultMap id="BaseResultMap" type="generator.domain.QuestionBankQuestion">
+    <resultMap id="BaseResultMap" type="com.wjh.interview.model.entity.QuestionBankQuestion">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="questionbankid" column="questionBankId" jdbcType="BIGINT"/>
             <result property="questionid" column="questionId" jdbcType="BIGINT"/>
