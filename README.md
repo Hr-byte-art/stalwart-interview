@@ -1,7 +1,6 @@
 # SpringBoot 项目初始模板
 
-> 作者：[程序员鱼皮](https://github.com/liyupi)
-> 仅分享于 [编程导航知识星球](https://yupi.icu)
+> 作者：王哈哈
 
 基于 Java SpringBoot 的项目初始模板，整合了常用框架和主流业务的示例代码。
 
@@ -86,7 +85,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mianshiya
     username: root
-    password: 123456
+    password: zjrwjh999
 ```
 
 2）执行 `sql/create_table.sql` 中的数据库语句，自动创建库表
@@ -106,7 +105,7 @@ spring:
     host: localhost
     port: 6379
     timeout: 5000
-    password: 123456
+    password: zjrwjh999
 ```
 
 2）修改 `application.yml` 中的 session 存储方式：
@@ -141,7 +140,7 @@ spring:
   elasticsearch:
     uris: http://localhost:9200
     username: root
-    password: 123456
+    password: zjrwjh999
 ```
 
 2）复制 `sql/post_es_mapping.json` 文件中的内容，通过调用 Elasticsearch 的接口或者 Kibana Dev Tools 来创建索引（相当于数据库建表）
